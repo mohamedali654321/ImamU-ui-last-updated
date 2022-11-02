@@ -25,7 +25,7 @@
         <h4 class="card-title" [innerHTML]="dsoTitle | kwareTranslate"></h4>
       </ds-truncatable-part>
       <div *ngIf="dso.allMetadata(['organization.relation.ispartof']).length > 0">
-        <span style="color:#530a86 !important ;font-size: 15px;font-weight: 600;" [innerHtml]="firstMetadataValue('organization.relation.ispartof') | kwareTranslate"></span>
+        <span style="color:#3992a4 !important ;font-size: 15px;font-weight: 600;" [innerHtml]="firstMetadataValue('organization.relation.ispartof') | kwareTranslate"></span>
 
       </div>
       <p *ngIf="dso.hasMetadata('organization.foundingDate')"

@@ -8,6 +8,32 @@
   text-align: right;
   font-family: cufi;
 }
+
+::ng-deep  body {
+  background-image: url(http://dlibrary.kingabdullah.sa/themes/Mirage2/images/background.jpg);
+    margin: 0;
+    background-size: contain;
+}
+::ng-deep header a {
+  color: #fff !important;
+}
+::ng-deep h1{
+  color: #ab986c;
+}
+::ng-deep h2{
+  color: #ab986c;
+}
+::ng-deep h3{
+  color: #ab986c;
+}
+// ::ng-deep h4{
+//   color: #ab986c;
+// }
+::ng-deep h5{
+  color: #ab986c;
+}
+
+
 // margin close sign in header modal to left of export , new or edit  (community , collection , item ) in arabic interface
 ::ng-deep html[dir="rtl"] .modal-header {
   .close {
@@ -273,6 +299,18 @@
   border-bottom-right-radius: 0;
 }
 
+::ng-deep .list-group-item {
+  z-index: 2;
+  color: #ab986c;
+  background-color: #fff;
+  border-color: #ab986c;
+}
+::ng-deep .list-group-item.active {
+  z-index: 2;
+  color: #fff;
+  background-color: #ab986c;
+  border-color: #ab986c;
+}
 // space between Add btn and save ,discard btn in edit-metadat page
 ::ng-deep html[dir="rtl"] {
   ds-item-metadata {
@@ -292,51 +330,51 @@
 // general css
 ::ng-deep {
   body {
-    color: #530a86 !important;
+    color: #3992a4 !important;
 
 
   }
   .btn-primary {
     color: #fff;
-    background-color: #530a86 !important;
-    border-color: #530a86 !important;
+    background-color: #ab986c !important;
+    border-color: #ab986c!important;
   }
   .input-group > .form-control {
-    border: 1px solid #530a86;
+    border: 1px solid #3992a4;
   }
   .dropdown-menu > .dropdown-item {
-    color: #530a86;
+    color: #ab986c;
     background-color: transparent;
     &.active {
       color: #fff;
       text-decoration: none;
-      background-color: #530a86;
+      background-color: #ab986c;
     }
   }
 
   ds-navbar > nav.navbar {
-    border-bottom: 5px #530a86 solid !important;
+    border-bottom: 5px #ab986c solid !important;
   }
 
   .page-item.active .page-link {
-    background-color: #530a86 !important;
-    border-color: #530a86 !important;
+    background-color: #3992a4 !important;
+    border-color: #3992a4 !important;
   }
 
   form > a {
-    color: #530a86 !important;
+    color: #3992a4 !important;
     text-decoration: none;
     background-color: transparent;
   }
 
   ds-community-list-element > a {
-    color: #530a86 !important;
+    color: #3992a4 !important;
     text-decoration: none;
     background-color: transparent;
   }
 
   ds-item-search-result-list-element > ds-truncatable > div > a {
-    color: #530a86 !important;
+    color: #3992a4 !important;
     text-decoration: none;
     background-color: transparent;
   }
@@ -356,11 +394,11 @@
   }
 
   .badge-info {
-    background-color: lighten(#530a86, 15%) !important;
+    background-color: lighten(#ab986c, 15%) !important;
   }
 
   .btn-outline-primary {
-    color: lighten(#530a86, 15%) !important;
+    color: lighten(#ab986c, 15%) !important;
     &:hover {
       color: #fff !important;
     }
@@ -369,7 +407,7 @@
   .btn-outline-primary.disabled,
   .btn-outline-primary:disabled {
     &:hover {
-      color: #530a86 !important;
+      color: #ab986c !important;
     }
   }
 
@@ -870,7 +908,7 @@ h4{
 
 
   ::ng-deep .card:hover{
-      border: #530a86 1.5px solid;
+      border: #3992a4 1.5px solid;
     }
 
 
@@ -909,10 +947,16 @@ h4{
 
 
   ::ng-deep ds-root main{
-     margin-top: 104px !important;
+     margin-top: 114px !important;
   }
 
+  ::ng-deep ds-metadata-field-wrapper .simple-view-element-header{
+    color: #ab986c;
+  }
 
+  ::ng-deep ds-item-page-title-field .item-page-title-field{
+    color: #ab986c;
+  }
 
  ::ng-deep html[dir="ltr"] {
   .atss-left {
@@ -1274,3 +1318,31 @@ gap: 7px;
 //     background-color: #EEE;
 // }
 // }
+
+
+::ng-deep ds-themed-navbar {ds-link-menu-item{
+  .nav-item{
+    color: #fff !important;
+  }
+}
+}
+
+
+::ng-deep .nav-item {
+  color: #ab986c !important;
+}
+
+
+::ng-deep .filter-name{
+ color: #207698 !important;
+ h5{
+  color: #207698 !important;
+ }
+}
+
+
+::ng-deep ds-expandable-navbar-section{
+  ul{
+    background-color: #ab986c !important;
+  }
+}

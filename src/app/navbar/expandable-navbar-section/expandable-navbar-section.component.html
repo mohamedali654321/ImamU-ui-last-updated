@@ -8,7 +8,7 @@
     <a href="javascript:void(0);" class="nav-link dropdown-toggle" routerLinkActive="active"
        id="browseDropdown" (click)="toggleSection($event)"
        data-toggle="dropdown">
-        <ng-container
+        <ng-container 
                 *ngComponentOutlet="(sectionMap$ | async).get(section.id).component; injector: (sectionMap$ | async).get(section.id).injector;"></ng-container>
     </a>
     <ul @slide *ngIf="(active | async)" (click)="deactivateSection($event)"

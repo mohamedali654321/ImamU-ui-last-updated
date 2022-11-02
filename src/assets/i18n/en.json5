@@ -1,5 +1,5 @@
 {
-  "home.news.dspace7": "DSpace 7",
+  "home.news.dspace7": "Imam Mohammad Ibn Saud Islamic University",
   "home.news.dspace.intro.header": "DSpace is the world leading open source repository platform that enables organisations to:",
 
   "home.news.dspace.intro.content1": "easily ingest documents, audio, video, datasets and their corresponding Dublin Core metadata",
@@ -2254,7 +2254,7 @@
 
   "menu.section.browse_community_by_title": "By Title",
 
-  "menu.section.browse_global": "All of DSpace",
+  "menu.section.browse_global": "All of Digital Repsoitory",
 
   "menu.section.browse_global_by_author": "By Author",
 
@@ -4149,7 +4149,7 @@
  // dspace 7.3 translation
 'item.truncatable-part.show-more':'Show more',
 'item.truncatable-part.show-less':'Collapse' ,
-'footer.link.copyrights':"© 2022 All Rights Reserved",
+'footer.link.copyrights':"All rights reserved to Imam Mohammad Ibn Saud Islamic University (IMSIU) 1444 H - 2022 G",
 'browse.back.all-results':' All browse results',
 'dso-selector.modal.or':'or',
 'login.form.orcid':' Log in with ORCID',
@@ -4449,10 +4449,10 @@
 
 
 'footer.top.content6':'Institutional Digital Repository',
-'footer.top.content1':' KnowledgeWARE Technologies',
+'footer.top.content1':'Imam Muhammad bin Saud Islamic University',
 'footer.top.content2':'Stay connected',
 'footer.top.content3':'Please ',
-'footer.top.content4':'KnowledgeWARE Technologies (Kware) is a pan Arab systems integration firm which specializes in Bilingual (Arabic/English) Information Access Technology (IAT) based solutions for government agencies and commercial corporations.',
+'footer.top.content4':'Imam Muhammad bin Saud Islamic University, represented by the faculty of Sharia, was established in the year 1373 AH, 1953 CE, it developed radically until it became a university in the year 1394 - 1974 AD. Complementarity between commitment to Islamic values and academic excellence is what',
 'footer.top.content5':'The Center presents its products in the scientific and research field through peer-reviewed research, extensive studies, reports, scientific articles, position assessments, panel discussions, seminars, and scientific conferences. It publishes a number of these products in the form of books or research files, and puts many of them for direct reading through its online platform.',
 
 'search.filters.filter.familyName.head':'Last name',
@@ -5083,6 +5083,10 @@
 'relationships.isLocationOf':'Locations',
 
 "process.overview.table.actions": "Actions",
+
+  'home.news.dspace.intro.content1':" Imam Muhammad Bin Saud Islamic University Digital Repository preserves and provides access to all intellectual productions made by the university in science and knowledge, including dissertations, periodicals and proceedings of conferences and symposiums. The  Imam Muhammad Ben Saud University Digital Repository is planned to have all kinds of new publications and textbooks of the various university departments. It is administrated by professionals in information science and supervised by the Deanship of Libraries Affairs",
+  "home.news.dspace.intro.content2":"With Greetings from The Deanship of Libraries Affairs at Imam Muhammad Bin Saud Islamic University  .",
+
 
 }
 
